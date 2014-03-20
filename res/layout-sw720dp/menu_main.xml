@@ -1,0 +1,181 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MenuMainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:paddingTop="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a Service"
+		android:textSize="35dp"
+        android:textColor="#606060"
+        android:textStyle="bold" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_gravity="center"
+        android:paddingTop="80dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/imgBtnCallnText"
+            android:onClick="clickCallnText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+  	        android:background="#FFF"
+            android:src="@drawable/menu_mobile" />
+
+        <ImageButton
+            android:id="@+id/imgBtnInquireBalance"
+            android:onClick="clickInquireBalance"
+        	android:layout_marginLeft="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+  	        android:background="#FFF"
+            android:src="@drawable/menu_inquire" />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+        	android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call &amp; Text Promos"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+        	android:gravity="center"
+        	android:layout_marginLeft="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inquire Balance"
+            android:textSize="30dp" />
+
+    </TableRow>
+  	<TableRow
+        android:id="@+id/tableRow2"
+        android:layout_gravity="center"
+        android:paddingTop="80dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+  		<ImageButton
+  		    android:id="@+id/imgBtnInternet"
+            android:onClick="clickInternet"
+  		    android:layout_width="wrap_content"
+  		    android:layout_height="wrap_content"
+  	        android:background="#FFF"
+  		    android:src="@drawable/menu_internet" />
+
+  		<ImageButton
+  		    android:id="@+id/imgBtnTransfer"
+            android:onClick="clickTransfer"
+        	android:layout_marginLeft="130dp"
+  		    android:layout_width="wrap_content"
+  		    android:layout_height="wrap_content"
+  	        android:background="#FFF"
+  		    android:src="@drawable/menu_transfer" />
+
+   	 </TableRow>
+	<TableRow
+        android:id="@+id/tableRow1"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+        android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Internet Services"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+        	android:gravity="center"
+        	android:layout_marginLeft="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transfer a Load"
+            android:textSize="30dp" />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_gravity="center"
+        android:paddingTop="80dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+  		<ImageButton
+  		    android:id="@+id/imgBtnCustomer"
+            android:onClick="clickCustomer"
+  		    android:layout_width="wrap_content"
+  		    android:layout_height="wrap_content"
+  	        android:background="#FFF"
+  		    android:src="@drawable/menu_customer_serv" />
+
+  		<ImageButton
+  		    android:id="@+id/imgBtnMore"
+            android:onClick="clickMore"
+        	android:layout_marginLeft="80dp"
+  		    android:layout_width="wrap_content"
+  		    android:layout_height="wrap_content"
+  	        android:background="#FFF"
+  		    android:src="@drawable/menu_more" />
+
+   	 </TableRow>
+<TableRow
+        android:id="@+id/tableRow1"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+        android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer Service"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+        	android:gravity="center"
+        	android:layout_marginLeft="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show More"
+            android:textSize="30dp" />
+
+    </TableRow>
+
+</TableLayout>

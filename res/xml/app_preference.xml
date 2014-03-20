@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    	<PreferenceCategory android:title="SIM SETTINGS">
+		<ListPreference android:negativeButtonText="Cancel" android:positiveButtonText="OK" android:title="Default Sim" android:dialogTitle="Default Sim at Startup" android:key="lstDefaultSim" android:entries="@array/mobile_networks" android:entryValues="@array/mobile_networks_value" android:summary="Set your default SIM" android:defaultValue="0" android:icon="@drawable/pref_sim"/>
+		
+	</PreferenceCategory><PreferenceCategory android:title="SMS SETTINGS">
+		<CheckBoxPreference android:key="chkQuickSend" android:title="Quick Send" android:enabled="true" android:selectable="true" android:defaultValue="true" android:icon="@drawable/pref_quicksend" />
+		
+	</PreferenceCategory><PreferenceCategory android:title="NOTIFICATION SETTINGS"><CheckBoxPreference android:key="chkVibrate" android:title="Vibrate" android:enabled="true" android:selectable="true" android:defaultValue="true" android:icon="@drawable/pref_vibrate" android:summary="Activate vibration"/></PreferenceCategory>
+</PreferenceScreen>

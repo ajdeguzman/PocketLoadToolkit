@@ -1,0 +1,38 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentTop="true"
+    tools:context=".PromoCreated"
+    android:layout_marginLeft="10dp" >
+          <ListView
+        android:id="@+id/lstPromoCreated"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true" >
+
+    </ListView>
+
+ 	<TextView
+ 	    android:id="@+id/txtNoDataFound"
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="fill_parent"
+ 	    android:layout_alignParentBottom="true"
+ 	    android:layout_alignParentTop="true"
+ 	    android:gravity="center"
+ 	    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+ 	<ProgressBar
+ 	    android:id="@+id/progressBar"
+ 	    android:indeterminate="true"
+ 	    style="?android:attr/progressBarStyleLarge"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_alignParentTop="true"
+ 	    android:layout_centerHorizontal="true"
+ 	    android:layout_marginTop="180dp" />
+
+    </RelativeLayout>

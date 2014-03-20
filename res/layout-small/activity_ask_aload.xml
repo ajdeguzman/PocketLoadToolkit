@@ -1,0 +1,100 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AskALoad" >
+
+<ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/main_ask" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+        	android:gravity="center"
+        	android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ask your family or a friend for a load\nwhenever you reached zero balance"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#999999" />
+        
+    </TableRow>
+    <TableRow
+        android:paddingTop="50dp"
+        android:id="@+id/tableRow1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        <EditText
+            android:id="@+id/txtFriendNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:background="@drawable/curve"
+            android:drawableLeft="@drawable/drawleft_recipient"
+            android:drawablePadding="5dp"
+            android:inputType="textNoSuggestions"
+            android:ems="10"
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+            android:maxLength="15"
+            android:hint="Friend\'s Number"
+            android:padding="8dp"
+            android:paddingLeft="20sp"
+            android:textSize="@dimen/text_size" />
+
+        <Button
+            android:id="@+id/btnBrowseFriendNumber"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickBrowseFriendNumber"
+            android:layout_alignBottom="@+id/txtFriendNumber"
+            android:layout_alignRight="@+id/txtFriendNumber"
+            android:layout_alignTop="@+id/txtFriendNumber"
+            android:background="#000"
+            android:text=" . . . "
+            android:textStyle="bold"
+            android:textColor="#FFF" />
+
+        </RelativeLayout>
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnAskALoad"
+            android:onClick="clickAskALoad"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_margin="5sp"
+            android:background="@drawable/button"
+            android:text="Ask a Load"
+            android:textColor="#FFFFFF" />
+
+    </TableRow>
+
+</TableLayout>

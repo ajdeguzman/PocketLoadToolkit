@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pocket Load Toolkit</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_delete">Clear log(s)</string>
+    <string name="action_add">Add Promo</string>
+    <string name="action_history">Activity Log</string>
+    <string name="action_change_network">Change Network</string>
+
+    <string-array name="mobile_networks">
+        <item>Talk \'n Text</item>
+        <item>Smart</item>
+        <item>Sun Cellular</item>
+        <item>Globe</item>
+        <item>Touch Mobile</item>
+    </string-array>
+    <string-array name="mobile_networks_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="more_options">
+        <item>Emergency Load</item>
+        <item>Request a Load</item>
+    </string-array>
+    <string-array name="cnt_options">
+        <item>Suggested Promo</item>
+        <item>My Promo</item>
+    </string-array>
+    <string-array name="arr_transferload_tnt">
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>100</item>
+        <item>200</item>
+        <item>LT35</item>
+        <item>LT20</item>
+    </string-array>
+    <string-array name="arr_transferload_smart">
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>100</item>
+        <item>200</item>
+    </string-array>
+    <string-array name="arr_transferload_sun">
+        <item>BGT5</item>
+        <item>BGT20</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>CTC10</item>
+        <item>CTC20</item>
+        <item>CTC30</item>
+        <item>CTU25</item>
+        <item>CTU150</item>
+        <item>CTU450</item>
+        <item>TU20</item>
+        <item>TU50</item>
+        <item>TU150</item>
+        <item>WIN10</item>
+        <item>UMIX25</item>
+        <item>UMIX100</item>
+        <item>SBW50</item>
+        <item>SBW100</item>
+        <item>SBW300</item>
+        <item>ALERTZ15</item>
+        <item>ALERTZ50</item>
+        <item>ALERTZ150</item>
+        <item>SMAIL15</item>
+        <item>SMAIL50</item>
+        <item>SMAIL150</item>
+        <item>IM20</item>
+    </string-array>
+    <string-array name="arr_transferload_tm">
+        <item>1</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>50</item>
+        <item>100</item>
+        <item>150</item>
+    </string-array>
+    <string-array name="arr_transferload_globe">
+        <item>1</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>50</item>
+        <item>100</item>
+        <item>150</item>
+    </string-array>
+    <string-array name="arr_customerservice_smart">
+        <item>Smart Postpaid / Prepaid / TNT</item>
+        <item>Smart Infinity</item>
+        <item>Smart Mobile Broadband</item>
+        <item>Home Broadband</item>
+        <item>Smart Money</item>
+        <item>Smart Load Retailers</item>
+        <item>Smart Load Dealers</item>
+        <item>Smart Padala</item>
+    </string-array>
+    <string-array name="arr_customerservice_sun">
+        <item>Sun Postpaid / Prepaid</item>
+        <item>Sun Postpaid Elite Plan</item>
+        <item>Sun Broadband Wireless</item>
+    </string-array>
+    <string-array name="arr_emergencyload_smart">
+        <item>3 on-net SMS</item>
+        <item>4 all-net SMS</item>
+    </string-array>
+    <!-- LOAD PROMOS -->
+    <string-array name="arr_smart_combo_promo">
+        <item>AT20</item>
+        <item>L30</item>
+        <item>AT100</item>
+        <item>AT15</item>
+        <item>UNLI35</item>
+        <item>UNLI600</item>
+        <item>UNLI25</item>
+        <item>UNLI30</item>
+        <item>UNLI50</item>
+        <item>TRINET300</item>
+        <item>UNLI100</item>
+        <item>AT30</item>
+        <item>TRINET100</item>
+        <item>UNLI150</item>
+        <item>TRINET200</item>
+        <item>TRINET400</item>
+        <item>UNLI200</item>
+        <item>UNLI299</item>
+        <item>UNLI400</item>
+        <item>L20</item>
+        <item>TRINET15</item>
+        <item>TRINET30</item>
+        <item>TRINET40</item>
+    </string-array>
+    <string-array name="arr_smart_call_promo">
+        <item>TALK100</item>
+        <item>CALL100</item>
+        <item>CALL200</item>
+        <item>CALL400</item>
+        <item>TALK500</item>
+    </string-array>
+    <string-array name="arr_smart_text_promo">
+        <item>TEXT50</item>
+        <item>TEXT200</item>
+        <item>TEXT100</item>
+    </string-array>
+
+    <string name="title_activity_inquire_balance">InquireBalance</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_emergency_load">EmergencyLoad</string>
+    <string name="title_activity_promo_list">PromoList</string>
+    <string name="title_activity_promo_created">PromoCreated</string>
+    <string name="title_activity_history">History</string>
+    <string name="title_activity_international_services">InternationalServices</string>
+    <string name="title_activity_internet_services">InternetServices</string>
+    <string name="title_activity_ask_aload">AskALoad</string>
+
+</resources>

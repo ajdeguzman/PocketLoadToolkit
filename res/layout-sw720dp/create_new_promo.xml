@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+  	<TableRow
+        android:paddingTop="10dp"
+        android:id="@+id/tableRow1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <EditText
+            android:id="@+id/txtInsertPromoName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890&amp; "
+            android:drawablePadding="5dp"
+            android:maxLength="15"
+            android:ems="10"
+            android:hint="Promo Name"
+            android:padding="8dp"
+            android:paddingLeft="20sp"
+            android:textSize="@dimen/text_size" />
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content">
+        <EditText
+            android:id="@+id/txtInsertPromoCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+            android:maxLength="13"
+            android:hint="Promo Code"
+            android:padding="8dp"
+            android:paddingLeft="20sp"
+            android:textSize="@dimen/text_size" />
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content">
+        <EditText
+            android:id="@+id/txtInsertSendTo"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Send To"
+            android:padding="8dp"
+            android:paddingLeft="20sp"
+            android:textSize="@dimen/text_size" />
+    </TableRow>
+
+</TableLayout>
